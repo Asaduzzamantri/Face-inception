@@ -31,11 +31,25 @@ def prediction():
     print(preds)
 
     if preds == 0:
-        preds = "Elias"
+        preds = "Alif"
     elif preds == 1:
-        preds = "Mugdho"
+        preds = "Elias"
     elif preds == 2:
-        preds = "Wahid"
+        preds = "Farhat"
+    elif preds == 3:
+        preds = "Kumkum"
+    elif preds == 4:
+        preds = "Moontahina"
+    elif preds == 5:
+        preds = "Mugdho"
+    elif preds == 6:
+        preds = "Oishee"
+    elif preds == 7:
+        preds = "Redwan"
+    elif preds == 8:
+        preds = "Sabila"
+    elif preds == 8:
+        preds = "Shazzad"
     else:
         preds = "not detected"
 
